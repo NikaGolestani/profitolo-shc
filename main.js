@@ -22,7 +22,7 @@ function chhnyn() {
   back1.addEventListener("click", chhnyb);
 }
 function chhnyb() {
-  hny.innerHTML = ` <div class="row"><div class="d-block d-lg-none align-self-center col-1"></div><div class="col"><h3>Happy New Year</h3><p>In this project, I use my knowledge of HTML, CSS, and Javascript. Most of this project uses Bootstrap as a way to have a responsive webpage so, by building this project, I improved my understanding of responsive web pages and Bootstraps Documentation.</p><button class="launch-btn"><a href="https://flourishing-nasturtium-c5eada.netlify.app/" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1 arrow next1"><i class="fa-solid fa-circle-chevron-right"></i></div></div>
+  hny.innerHTML = ` <div class="row"><div class="d-block d-lg-none align-self-center col-1"></div><div class="col"><h3>Happy New Year</h3><p>In this project, I use my knowledge of HTML, CSS, and Javascript. Most of this project uses media queries as a way to have a responsive webpage so, by building this project, I improved my understanding of responsive web pages and Media queries.</p><button class="launch-btn"><a href="https://flourishing-nasturtium-c5eada.netlify.app/" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1 arrow next1"><i class="fa-solid fa-circle-chevron-right"></i></div></div>
 `;
   let next1 = document.querySelector(".next1");
   next1.addEventListener("click", chhnyn);
