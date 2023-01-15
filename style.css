@@ -1,0 +1,232 @@
+:root {
+  --primary-color: rgb(255, 164, 196);
+  --secondary-color: #fef2fc;
+  --primary-color2: rgb(255, 99, 154);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+em {
+  color: #888;
+}
+@media (max-width: 578px) {
+  a {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  div {
+    padding-top: 10px;
+  }
+  h2 {
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+body {
+  margin: 60px auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.launch-btn a {
+  color: var(--secondry-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.launch-btn a:hover {
+  color: var(--primary-color2);
+  text-decoration: none;
+}
+
+.launch-btn:hover {
+  background-color: var(--secondry-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+.contact-link:hover {
+  color: var(--primary-color2);
+  border: 1px solid var(--primary-color2);
+  background: var(--secondry-color);
+}
+
+.about-link:hover {
+  background: var(--primary-color2);
+  color: var(--secondary-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+#menu {
+  background-color: rgba(255, 255, 255, 0);
+  border: 5px solid rgb(254, 64, 115);
+  position: fixed;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  top: 200px;
+  right: 5px;
+}
+.rope {
+  width: 0px;
+  height: 142px;
+  position: fixed;
+  top: 58px;
+  right: 20px;
+  border-right: 3px var(--primary-color2) dashed;
+}
+@media (max-width: 991px) {
+  .collapse {
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 247, 0, 0.6) 10%,
+      rgba(255, 247, 0, 1) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    border-radius: 10px;
+  }
+}
+.menu {
+  background-color: rgb(255, 204, 222);
+}
+
+.projects h3 {
+  color: var(--primary-color2);
+}
+.projects {
+  border: var(--primary-color2) solid 3px;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.projects button {
+  border: none;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color2);
+  color: var(--secondary-color);
+  border: var(--primary-color2) solid 2px;
+  display: block;
+  margin: 10px auto;
+}
+
+.emoji {
+  color: var(--primary-color);
+  margin: 20px;
+  transition: all 200ms ease-in-out;
+}
+.emoji:hover {
+  color: var(--primary-color2);
+  font-size: 150%;
+}
+
+.arrow {
+  color: var(--primary-color2);
+  transition: all 200ms ease-in-out;
+}
+
+.arrow:hover {
+  font-size: 150%;
+}
+.link {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+.link:hover {
+  color: var(--primary-color2);
+}
