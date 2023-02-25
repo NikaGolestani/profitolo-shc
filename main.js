@@ -31,13 +31,13 @@ function chhnyb() {
 let ml = document.querySelector(".ml");
 chmlb();
 function chmln() {
-  ml.innerHTML = `<div class="row"><div class="d-block d-lg-none align-self-center col-1 arrow back2"><i class="fa-solid fa-circle-chevron-left"></i></div><div class="col"><h3>Mastermind Game</h3><img src="img/ml.png" class=" img-fluid rounded"><button class="launch-btn"><a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/074/299/original/projectone.html?1660294175" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1"></div></div>
+  ml.innerHTML = `<div class="row"><div class="d-block d-lg-none align-self-center col-1 arrow back2"><i class="fa-solid fa-circle-chevron-left"></i></div><div class="col"><h3>Mastermind Game</h3><img src="img/ml.png" class=" img-fluid rounded"><button class="launch-btn"><a href="https://spectacular-frangollo-76d4c1.netlify.app/" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1"></div></div>
 `;
   let back2 = document.querySelector(".back2");
   back2.addEventListener("click", chmlb);
 }
 function chmlb() {
-  ml.innerHTML = ` <div class="row"><div class="d-block d-lg-none align-self-center col-1"></div><div class="col"><h3>Mastermind Game</h3><p>With this project I improverd my react and js skills by challenging myself to make my ideas work.With sorting numbers I was able to write an algorithm for finding the digits in right and wrong positions.</p><button class="launch-btn"><a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/074/299/original/projectone.html?1660294175" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1 arrow next2"><i class="fa-solid fa-circle-chevron-right"></i></div></div>
+  ml.innerHTML = ` <div class="row"><div class="d-block d-lg-none align-self-center col-1"></div><div class="col"><h3>Mastermind Game</h3><p>With this project I improverd my react and js skills by challenging myself to make my ideas work.With sorting numbers I was able to write an algorithm for finding the digits in right and wrong positions.</p><button class="launch-btn"><a href="https://spectacular-frangollo-76d4c1.netlify.app/" >Launch</a></button></div><div class="d-block d-lg-none align-self-center col-1 arrow next2"><i class="fa-solid fa-circle-chevron-right"></i></div></div>
 `;
   let next2 = document.querySelector(".next2");
   next2.addEventListener("click", chmln);
