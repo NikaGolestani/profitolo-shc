@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgb(255, 164, 196);
+  --primary-color: rgb(220, 106, 238);
   --secondary-color: #fef2fc;
-  --primary-color2: rgb(255, 99, 154);
+  --primary-color2: rgb(122, 19, 150);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 a {
@@ -145,7 +145,7 @@ p {
 
 #menu {
   background-color: rgba(255, 255, 255, 0);
-  border: 5px solid rgb(254, 64, 115);
+  border: 5px solid rgb(248, 78, 248);
   position: fixed;
   border-radius: 50%;
   width: 30px;
@@ -174,7 +174,7 @@ p {
   }
 }
 .menu {
-  background-color: rgb(255, 204, 222);
+  background-color: rgb(220, 141, 232);
 }
 
 .projects h3 {
@@ -229,4 +229,7 @@ p {
 }
 .link:hover {
   color: var(--primary-color2);
+}
+.main {
+  margin: 10px;
 }
